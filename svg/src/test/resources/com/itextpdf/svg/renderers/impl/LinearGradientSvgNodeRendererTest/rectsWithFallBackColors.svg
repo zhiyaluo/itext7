@@ -1,14 +1,1 @@
-<svg x="0" y="0" width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
-	<defs>
-		<linearGradient x1="20%" y1="20%" x2="80%" y2="80%" id="myFillGradient">
-			<stop offset="0"  stop-color="red" />
-			<stop offset="0.5"  stop-color="green" />
-			<stop offset="1" stop-color="blue" />
-		</linearGradient>
-	</defs>
-    <rect x="100" y="100" width="600" height="400" stroke="url(#invalidStroke) magenta"
-		  fill="url(#myFillGradient)" stroke-width="20"/>
-
-	<rect x="100" y="100" width="600" height="400" stroke="url(#invalidId) green"
-		  fill="url(#invalidFill) rgba(100,150,0,0.5)" stroke-width="10"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" x="0" y="0" version="1.1"><defs><linearGradient id="myFillGradient" x1="20%" x2="80%" y1="20%" y2="80%"><stop offset="0" stop-color="red"/><stop offset=".5" stop-color="green"/><stop offset="1" stop-color="#00f"/></linearGradient></defs><rect width="600" height="400" x="100" y="100" fill="url(#myFillGradient)" stroke="url(#invalidStroke) magenta" stroke-width="20"/><rect width="600" height="400" x="100" y="100" fill="url(#invalidFill) rgba(100,150,0,0.5)" stroke="url(#invalidId) green" stroke-width="10"/></svg>

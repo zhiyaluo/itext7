@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12cm" height="4cm" viewBox="0 0 1200 400" version="1.1">
-    <desc>Example fillrule-evenodd - demonstrates fill-rule:evenodd</desc>
-    <rect x="1" y="1" width="1198" height="398" fill="none" stroke="blue"/>
-    <defs>
-        <path id="Triangle" d="M 16,0 L -8,9 v-18 z" fill="black" stroke="none"/>
-    </defs>
-    <g fill-rule="evenodd" fill="red" stroke="black" stroke-width="3">
-        <path fill="#eee" stroke="deeppink" stroke-width="8px" stroke-linejoin="round" d="M 150,10 B 36 h 47 b 72 h 47 b 72 h 47 b 72 h 47 z"/>
-        <path d="M275,175 v-150 a150,150 0 0,0 -150,150 z" fill="yellow" stroke="blue" stroke-width="5"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="12cm" height="4cm" version="1.1" viewBox="0 0 1200 400"><desc>Example fillrule-evenodd - demonstrates fill-rule:evenodd</desc><rect width="1198" height="398" x="1" y="1" fill="none" stroke="#00f"/><defs><path id="Triangle" fill="#000" stroke="none" d="M 16,0 L -8,9 v-18 z"/></defs><g fill="red" fill-rule="evenodd" stroke="#000" stroke-width="3"><path fill="#eee" stroke="#ff1493" stroke-linejoin="round" stroke-width="8" d="M 150,10 B 36 h 47 b 72 h 47 b 72 h 47 b 72 h 47 z"/><path fill="#ff0" stroke="#00f" stroke-width="5" d="M275,175 v-150 a150,150 0 0,0 -150,150 z"/></g></svg>

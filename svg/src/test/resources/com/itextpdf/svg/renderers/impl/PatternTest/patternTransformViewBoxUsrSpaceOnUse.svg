@@ -1,12 +1,1 @@
-<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="star" viewBox="5 5 10 10"
-                 patternUnits="userSpaceOnUse"
-                 x="6" y="6" width="20" height="15"
-                 patternTransform="translate(15.1, 7.1) rotate(45) skewX(20) scale(1 0.5)">
-            <rect width="10" height="10" fill="red" stroke-width="1" stroke="black"/>
-        </pattern>
-    </defs>
-    <rect x='10' y='10' width='80' height='80' stroke="green" fill="url(#star)"/>
-    <rect x='120' y='10' width='80' height='80' stroke="url(#star)" stroke-width="10" fill="green"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><pattern id="star" width="20" height="15" x="6" y="6" patternTransform="translate(15.1, 7.1) rotate(45) skewX(20) scale(1 0.5)" patternUnits="userSpaceOnUse" viewBox="5 5 10 10"><rect width="10" height="10" fill="red" stroke="#000" stroke-width="1"/></pattern></defs><rect width="80" height="80" x="10" y="10" fill="url(#star)" stroke="green"/><rect width="80" height="80" x="120" y="10" fill="green" stroke="url(#star)" stroke-width="10"/></svg>

@@ -1,16 +1,1 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="star" x="0" y="0" width="12" height="12"
-                 patternContentUnits="userSpaceOnUse"
-                 patternUnits="userSpaceOnUse"
-                 fill="green">
-            <polygon fill="red" points="0,0 2,5 0,10 5,8 10,10 8,5 10,0 5,2"/>
-            <rect fill="none" stroke-width="0.4" stroke="blue" x="0" y="0" width="10" height="10"/>
-        </pattern>
-    </defs>
-
-    <rect x="10" y="10" width="100" height="100" fill="url(#star)" stroke-width="1" stroke="black"/>
-
-    <rect x="150" y="10" width="100" height="100"
-          fill="none" stroke-width="20" stroke="url(#star)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><pattern id="star" width="12" height="12" x="0" y="0" fill="green" patternContentUnits="userSpaceOnUse" patternUnits="userSpaceOnUse"><polygon fill="red" points="0 0 2 5 0 10 5 8 10 10 8 5 10 0 5 2"/><rect width="10" height="10" x="0" y="0" fill="none" stroke="#00f" stroke-width=".4"/></pattern></defs><rect width="100" height="100" x="10" y="10" fill="url(#star)" stroke="#000" stroke-width="1"/><rect width="100" height="100" x="150" y="10" fill="none" stroke="url(#star)" stroke-width="20"/></svg>

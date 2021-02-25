@@ -1,9 +1,1 @@
-<svg width="500" height="500">
-    <style>
-        @font-face {
-          font-family: 'Amaranth Woff Test';
-          src: url('../fonts/Amaranth-Regular.woff') format('woff');
-        }
-    </style >
-    <text x="20" y="200" font-family="Amaranth Woff Test" font-size="20" font-style="italic">Amaranth</text>
-</svg>
+<svg width="500" height="500"><style>@font-face{font-family:&apos;Amaranth Woff Test&apos;;src:url(../fonts/Amaranth-Regular.woff) format(&apos;woff&apos;)}</style><text x="20" y="200" font-family="Amaranth Woff Test" font-size="20" font-style="italic">Amaranth</text></svg>

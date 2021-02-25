@@ -1,18 +1,1 @@
-<svg x="0" y="0" width="600" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
-	<defs>
-		<linearGradient x1="20%" y1="20%" x2="80%" y2="80%"
-						id="myFillGradient" spreadMethod="repeat">
-			<stop offset="0"  stop-color="red" />
-			<stop offset="0.5"  stop-color="green" />
-			<stop offset="1" stop-color="blue" />
-		</linearGradient>
-		<linearGradient x1="100%" x2="0%" id="myStrokeGradient">
-			<stop offset="0"  stop-color="red" />
-			<stop offset="0.5"  stop-color="green" />
-			<stop offset="1" stop-color="blue" />
-		</linearGradient>
-	</defs>
-    <rect x="0" y="0" width="400" height="200" stroke="url(#myStrokeGradient)"
-		  fill="url(#myFillGradient)" stroke-width="20"
-		  transform="translate(100, 100) rotate(-45, 200, 200) scale(0.9, 0.9)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" x="0" y="0" version="1.1"><defs><linearGradient id="myFillGradient" x1="20%" x2="80%" y1="20%" y2="80%" spreadMethod="repeat"><stop offset="0" stop-color="red"/><stop offset=".5" stop-color="green"/><stop offset="1" stop-color="#00f"/></linearGradient><linearGradient id="myStrokeGradient" x1="100%" x2="0%"><stop offset="0" stop-color="red"/><stop offset=".5" stop-color="green"/><stop offset="1" stop-color="#00f"/></linearGradient></defs><rect width="400" height="200" x="0" y="0" fill="url(#myFillGradient)" stroke="url(#myStrokeGradient)" stroke-width="20" transform="translate(100, 100) rotate(-45, 200, 200) scale(0.9, 0.9)"/></svg>

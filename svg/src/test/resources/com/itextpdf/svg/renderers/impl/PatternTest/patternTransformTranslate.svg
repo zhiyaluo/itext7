@@ -1,9 +1,1 @@
-<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="star" x="0" y="0" width="100%" height="100%"
-                 patternTransform="translate(40.1, 0.1)">
-            <circle cx="40" cy="40" r="40" stroke="black" stroke-width="1" fill="red"/>
-        </pattern>
-    </defs>
-    <rect x='10' y='10' width='80' height='80' stroke="green" fill="url(#star)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><pattern id="star" width="100%" height="100%" x="0" y="0" patternTransform="translate(40.1, 0.1)"><circle cx="40" cy="40" r="40" fill="red" stroke="#000" stroke-width="1"/></pattern></defs><rect width="80" height="80" x="10" y="10" fill="url(#star)" stroke="green"/></svg>

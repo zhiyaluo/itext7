@@ -1,3 +1,1 @@
-<svg x="0" y="0" width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <ellipse cx="250" cy="250" rx="200" ry="100" stroke="red" fill="blue" stroke-width="70px"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" x="0" y="0" version="1.1"><ellipse cx="250" cy="250" fill="#00f" stroke="red" stroke-width="70" rx="200" ry="100"/></svg>
