@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg"
-	 xmlns:xlink="http://www.w3.org/1999/xlink">
-	<symbol id="myDot" width="90" height="90" viewBox="0 0 100 100" fill="purple" >
-		<circle r="50" cx="60" cy="60"/>
-	</symbol>
-	<!-- Auxiliary circle, which serves to understand that the myDot size is 90 in height and width -->
-	<circle r="45" cx="45" cy="45"/>
-	<use xlink:href="#myDot" x="50" y="0"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400"><symbol id="myDot" width="90" height="90" fill="purple" viewBox="0 0 100 100"><circle cx="60" cy="60" r="50"/></symbol><circle cx="45" cy="45" r="45"/><use x="50" y="0" xlink:href="#myDot"/></svg>

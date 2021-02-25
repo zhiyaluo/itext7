@@ -1,11 +1,1 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="star" x="2" y="2" width="14" height="14"
-                 viewBox = "0 0 100 -100"
-                 patternContentUnits="userSpaceOnUse"
-                 patternUnits="userSpaceOnUse">
-            <rect fill="none" stroke-width="0.4" stroke="orange" x="0" y="0" width="14" height="14"/>
-        </pattern>
-    </defs>
-    <rect x="0" y="0" width="100" height="100" fill="url(#star)" stroke-width="0.8" stroke="black"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><pattern id="star" width="14" height="14" x="2" y="2" patternContentUnits="userSpaceOnUse" patternUnits="userSpaceOnUse" viewBox="0 0 100 -100"><rect width="14" height="14" x="0" y="0" fill="none" stroke="orange" stroke-width=".4"/></pattern></defs><rect width="100" height="100" x="0" y="0" fill="url(#star)" stroke="#000" stroke-width=".8"/></svg>

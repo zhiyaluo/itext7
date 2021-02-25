@@ -1,7 +1,1 @@
-<svg viewBox="0 0 200 200"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!--    rectangle with absolute values-->
-  <rect x="0" y="0" width="100px" height="100px" fill="none" stroke="red" stroke-width="2"/>
-
-  <image xlink:href="image.png" x="2ex" y="3ex" width="8ex" height="10ex"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200"><rect width="100" height="100" x="0" y="0" fill="none" stroke="red" stroke-width="2"/><image width="8ex" height="10ex" x="2ex" y="3ex" xlink:href="image.png"/></svg>

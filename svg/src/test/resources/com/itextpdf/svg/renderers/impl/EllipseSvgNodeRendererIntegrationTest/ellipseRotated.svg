@@ -1,7 +1,1 @@
-<svg width='800' height='800'
-     xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <ellipse rx='80' ry='40' transform='translate(100,100)' stroke='red' fill='blue'/>
-    <ellipse rx='80' ry='40' transform='translate(100,100) rotate(-25)' stroke='green' fill='cyan'/>
-    <line x1='100' y1='100' x2='200' y2='100' stroke='black'/>
-    <line x1='100' y1='100' x2='100' y2='200' stroke='black'/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" version="1.1"><ellipse fill="#00f" stroke="red" rx="80" ry="40" transform="translate(100,100)"/><ellipse fill="#0ff" stroke="green" rx="80" ry="40" transform="translate(100,100) rotate(-25)"/><line x1="100" x2="200" y1="100" y2="100" stroke="#000"/><line x1="100" x2="100" y1="100" y2="200" stroke="#000"/></svg>
